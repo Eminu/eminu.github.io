@@ -1,0 +1,136 @@
+body {
+	font-family: arial, sans-serif;
+	background-color: #222222;
+	color: white;
+}
+
+.contain {
+    padding: 15px 50px;
+}
+
+.yoshcontain {
+	overflow: hidden;
+	position:absolute;
+	margin: auto;
+	
+}
+.yoshika {
+	opacity: 0.1;
+	z-index: 1;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+	background: url("yoshika_miyafuji_clean.png") no-repeat right top;
+	Position:relative;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 80000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 80000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 80000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 80000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.yoshika2 {
+	z-index: -1;
+	top: 600px;
+	left: 290px;
+    margin: 20px;
+    width: auto;
+    height: 500px;
+	background: url("yoshika_miyafuji_clean.png") no-repeat right top;
+	Position:relative;
+    -webkit-animation-name: spin2;
+    -webkit-animation-duration: 60000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin2;
+    -moz-animation-duration: 60000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin2;
+    -ms-animation-duration: 60000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin2;
+    animation-duration: 40000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+h1 {
+	text-align:center;
+}
+
+h3,p,a{
+	margin:0;
+}
+
+a {
+	color: violet;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+	margin: 0px 0px 28px;
+}
+
+td, th {
+    border-bottom: 1px solid #555;
+    text-align: left;
+    padding: 14px 10px;
+}
+
+td {
+	color: #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #333333;
+}
+
+.sep {
+    border-top: 2px solid #dddddd;
+	border-radius: 2px;
+	text-align:center;
+    background-color: #303090;
+    padding: 10px; 
+	margin:20px 0px 0px;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+@-moz-keyframes spin2 {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin2 {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(-360deg);}
+}
