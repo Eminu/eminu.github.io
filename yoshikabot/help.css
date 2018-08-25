@@ -9,6 +9,7 @@ body {
 }
 
 .yoshcontain {
+    pointer-events:none;
 	overflow: hidden;
 	position:absolute;
 	margin: auto;
@@ -21,7 +22,7 @@ body {
     margin: 20px;
 	margin-top:500px;
     width: 800px;
-    height: 1100px;
+    height: 1200px;
 	background: url("yoshika_miyafuji_clean.png") no-repeat right top;
 	Position:relative;
     -webkit-animation-name: spin;
