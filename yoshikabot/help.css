@@ -18,10 +18,10 @@ body {
 	opacity: 0.1;
 	z-index: 1;
     margin: 20px;
-    width: 500px;
+    width: 800px;
     height: 500px;
 	background: url("yoshika_miyafuji_clean.png") no-repeat right top;
-	Position:relative;
+	Position:fixed;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 80000ms;
     -webkit-animation-iteration-count: infinite;
