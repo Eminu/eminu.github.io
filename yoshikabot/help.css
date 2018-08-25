@@ -12,17 +12,18 @@ body {
 	overflow: hidden;
 	position:absolute;
 	margin: auto;
-	
+	width:90%;
 }
 .yoshika {
     pointer-events:none;
 	opacity: 0.1;
 	z-index: 1;
     margin: 20px;
+	margin-top:500px;
     width: 800px;
-    height: 500px;
+    height: 1100px;
 	background: url("yoshika_miyafuji_clean.png") no-repeat right top;
-	Position:fixed;
+	Position:relative;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 80000ms;
     -webkit-animation-iteration-count: infinite;
